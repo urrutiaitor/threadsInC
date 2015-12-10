@@ -1,0 +1,84 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		E9CB0DFA1C102E0900B1E230 /* consumidor.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = consumidor.c; sourceTree = "<group>"; };
+		E9CB0DFB1C102E0900B1E230 /* consumidor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = consumidor.h; sourceTree = "<group>"; };
+		E9CB0DFE1C102E6A00B1E230 /* buffer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = buffer.c; sourceTree = "<group>"; };
+		E9CB0DFF1C102E6A00B1E230 /* buffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		E9CB0E001C102E7A00B1E230 /* productor.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = productor.c; sourceTree = "<group>"; };
+		E9CB0E011C102E7A00B1E230 /* productor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = productor.h; sourceTree = "<group>"; };
+		E9CB0E021C1031A500B1E230 /* principal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = principal.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		E9CB0DF31C102DDE00B1E230 = {
+			isa = PBXGroup;
+			children = (
+				E9CB0E021C1031A500B1E230 /* principal.c */,
+				E9CB0E001C102E7A00B1E230 /* productor.c */,
+				E9CB0E011C102E7A00B1E230 /* productor.h */,
+				E9CB0DFE1C102E6A00B1E230 /* buffer.c */,
+				E9CB0DFF1C102E6A00B1E230 /* buffer.h */,
+				E9CB0DFA1C102E0900B1E230 /* consumidor.c */,
+				E9CB0DFB1C102E0900B1E230 /* consumidor.h */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		E9CB0DF41C102DDE00B1E230 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+			};
+			buildConfigurationList = E9CB0DF71C102DDE00B1E230 /* Build configuration list for PBXProject "productorConsumidor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E9CB0DF31C102DDE00B1E230;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		E9CB0DF81C102DDE00B1E230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		E9CB0DF91C102DDE00B1E230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9CB0DF71C102DDE00B1E230 /* Build configuration list for PBXProject "productorConsumidor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9CB0DF81C102DDE00B1E230 /* Debug */,
+				E9CB0DF91C102DDE00B1E230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9CB0DF41C102DDE00B1E230 /* Project object */;
+}

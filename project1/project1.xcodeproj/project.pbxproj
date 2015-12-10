@@ -1,0 +1,76 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		E9CB0DEF1C10297900B1E230 /* principal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = principal.c; sourceTree = "<group>"; };
+		E9CB0DF11C1029E400B1E230 /* hiloContador.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = hiloContador.c; sourceTree = "<group>"; };
+		E9CB0DF21C1029E400B1E230 /* hiloContador.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hiloContador.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		E9CB0DE81C10291500B1E230 = {
+			isa = PBXGroup;
+			children = (
+				E9CB0DF11C1029E400B1E230 /* hiloContador.c */,
+				E9CB0DF21C1029E400B1E230 /* hiloContador.h */,
+				E9CB0DEF1C10297900B1E230 /* principal.c */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		E9CB0DE91C10291500B1E230 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+			};
+			buildConfigurationList = E9CB0DEC1C10291500B1E230 /* Build configuration list for PBXProject "project1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E9CB0DE81C10291500B1E230;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		E9CB0DED1C10291500B1E230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		E9CB0DEE1C10291500B1E230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9CB0DEC1C10291500B1E230 /* Build configuration list for PBXProject "project1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9CB0DED1C10291500B1E230 /* Debug */,
+				E9CB0DEE1C10291500B1E230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9CB0DE91C10291500B1E230 /* Project object */;
+}
